@@ -1,0 +1,32 @@
+// All source languages available from DeepL API
+const SourceLanguages = {
+  BG: "Bulgarian",
+  ZH: "Chinese",
+  CS: "Czech",
+  DA: "Danish",
+  NL: "Dutch",
+  EN: "English",
+  ET: "Estonian",
+  FI: "Finnish",
+  FR: "French",
+  DE: "German",
+  EL: "Greek",
+  HU: "Hungarian",
+  ID: "Indonesian",
+  IT: "Italian",
+  JA: "Japanese",
+  LV: "Latvian",
+  LT: "Lithuanian",
+  PL: "Polish",
+  PT: "Portuguese",
+  RO: "Romanian",
+  RU: "Russian",
+  SK: "Slovak",
+  SL: "Slovenian",
+  ES: "Spanish",
+  SV: "Swedish",
+  TR: "Turkish",
+  UK: "Ukrainian",
+}
+
+export default SourceLanguages

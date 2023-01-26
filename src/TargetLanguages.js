@@ -1,0 +1,35 @@
+// All target languages available from DeepL API
+const TargetLanguages = {
+  BG: "Bulgarian",
+  ZH: "Chinese (Simplified)",
+  CS: "Czech",
+  DA: "Danish",
+  NL: "Dutch",
+  "EN-US": "English (American)",
+  "EN-GB": "English (British)",
+  ET: "Estonian",
+  FI: "Finnish",
+  FR: "French",
+  DE: "German",
+  EL: "Greek",
+  HU: "Hungarian",
+  ID: "Indonesian",
+  IT: "Italian",
+  JA: "Japanese",
+  LV: "Latvian",
+  LT: "Lithuanian",
+  PL: "Polish",
+  "PT-PT": "Portuguese",
+  "PT-BR" : "Portuguese (Brazilian)",
+  RO: "Romanian",
+  RU: "Russian",
+  SK: "Slovak",
+  SL: "Slovenian",
+  ES: "Spanish",
+  SV: "Swedish",
+  TR: "Turkish",
+  UK: "Ukrainian",
+
+}
+
+export default TargetLanguages

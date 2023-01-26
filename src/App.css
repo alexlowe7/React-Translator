@@ -2,37 +2,97 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control:disabled {
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-textarea {
+  height: 200px;
+  margin-bottom: 12px
+}
+
+.btn {
+  margin: 5px;
+}
+
+.select {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: rgb(64, 127, 209);
+  border-color: rgb(64, 127, 209);
+  font-size: medium;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: rgb(50, 92, 146);
+  border-color: rgb(50, 92, 146);
+}
+
+.form-control:focus, .form-select:focus {
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.my-button {
+  margin: 0px;
+  font-size: small;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: inline-block;
+}
+
+.flashcard {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  min-height: 275px;
 }
 
-.App-link {
-  color: #61dafb;
+.flashcard:hover {
+  border-color: rgb(50, 92, 146);
+  box-shadow: 0 0 10px #719ECE;
+  border: 1px solid lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-true, .f-false {
+  margin: 10px;
+  padding: 5px;
+}
+
+.flashcard-text-main {
+  font-size: x-large;
+  align-self: center;
+  padding: 15px;
+}
+
+.f-true {
+  font-weight: 600;
+}
+
+.f-numbers {
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.h20 {
+  height: 20%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.my-col {
+  padding-bottom: 2rem;
 }

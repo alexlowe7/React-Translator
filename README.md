@@ -119,11 +119,15 @@ To get a local copy up and running follow these simple steps.
    ```sh
    pipenv shell
    ```
-6. Run server
+6. Move into the 'backend' directory
+   ```sh
+   cd backend
+   ```
+7. Run server
    ```sh
    python manage.py runserver
    ```
-7. Start translating! http://localhost:3000/
+8. Start translating! http://localhost:3000/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
